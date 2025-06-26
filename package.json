@@ -21,13 +21,18 @@
     "preinstall": "pnpm run --filter @tooling/requirements-check requirements",
     "postinstall": "manypkg fix"
   },
-  "devDependencies": {
-    "@manypkg/cli": "0.24.0",
-    "@turbo/gen": "2.5.4",
-    "cross-env": "7.0.3",
-    "turbo": "2.5.4",
-    "typescript": "5.8.3"
-  },
+ "dependencies": {
+  "react": "^18.2.0",
+  "react-dom": "^18.2.0",
+  "react-router-dom": "^6.8.0",
+  "class-variance-authority": "^0.7.0",
+  "clsx": "^2.0.0",
+  "tailwind-merge": "^2.0.0",
+  "tailwindcss-animate": "^1.0.7",
+  "@radix-ui/react-slot": "^1.0.2",
+  "lucide-react": "^0.263.1",
+  "recharts": "^2.8.0"
+}
   "pnpm": {
     "overrides": {
       "react": "19.0.0",
